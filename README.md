@@ -1,2 +1,0 @@
-# partha_pratim_chatterjee_portfolio
-Portfolio
