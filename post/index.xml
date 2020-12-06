@@ -35,13 +35,15 @@
     </item>
     
     <item>
-      <title>Project 2: EDI Parser</title>
-      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-2/</link>
+      <title>Extract, Transform and Load: Parsing EDI Claims</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/parser/</link>
       <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
       
-      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-2/</guid>
-      <description>For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities.
-I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning.</description>
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/parser/</guid>
+      <description>EDI or Electronic Data Interchange is a standard for a p2p exchange of business documents.
+In this project, I created a parser that extracts PHI data from unstructured industry standard EDi files and generates a structured data format to be consumed by the downstream data pipeline
+The parser has the following capabilities:   Developed a custom utility to asynchronously read and parse millions of files using asyncio
+  The parser is developed as a pluggable interface and can be integrated in any pipeline as a library</description>
     </item>
     
   </channel>
