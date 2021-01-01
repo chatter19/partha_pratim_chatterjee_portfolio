@@ -29,6 +29,16 @@ Architecture Decisions  One monolithic application over microservices.</descript
     </item>
     
     <item>
+      <title>Data Platform</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/data_platform/</link>
+      <pubDate>Wed, 19 Feb 2020 12:58:08 -0400</pubDate>
+      
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/data_platform/</guid>
+      <description>In the current COVID hit world, it is necessary to understand wether employees are fit to go back to work. I developed a pluggable interface,
+ that consumes a survey response in the form of json, queues it to our AI to calculate the odds for or against a person going back to work and sends out those results to a web screen  Architecture Decisions  One monolithic application over microservices.</description>
+    </item>
+    
+    <item>
       <title>Ready To Work: A covid Initiative</title>
       <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/ready_to_work/</link>
       <pubDate>Wed, 19 Feb 2020 12:58:08 -0400</pubDate>

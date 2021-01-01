@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>One API to rule them all | Home</title>
+    <title>Data Platform | Home</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.79.0" />
     
@@ -25,23 +25,23 @@
 
     
     
-    <meta property="og:title" content="One API to rule them all" />
+    <meta property="og:title" content="Data Platform" />
 <meta property="og:description" content="A tool that estimates data science salaries." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/api/" />
-<meta property="article:published_time" content="2020-10-17T13:58:08-04:00" />
-<meta property="article:modified_time" content="2020-10-17T13:58:08-04:00" />
-<meta itemprop="name" content="One API to rule them all">
+<meta property="og:url" content="https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/data_platform/" />
+<meta property="article:published_time" content="2020-02-19T12:58:08-04:00" />
+<meta property="article:modified_time" content="2020-02-19T12:58:08-04:00" />
+<meta itemprop="name" content="Data Platform">
 <meta itemprop="description" content="A tool that estimates data science salaries.">
-<meta itemprop="datePublished" content="2020-10-17T13:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-10-17T13:58:08-04:00" />
-<meta itemprop="wordCount" content="143">
+<meta itemprop="datePublished" content="2020-02-19T12:58:08-04:00" />
+<meta itemprop="dateModified" content="2020-02-19T12:58:08-04:00" />
+<meta itemprop="wordCount" content="153">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="One API to rule them all"/>
+<meta name="twitter:title" content="Data Platform"/>
 <meta name="twitter:description" content="A tool that estimates data science salaries."/>
 
   </head>
@@ -54,7 +54,7 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://chatter19.github.io/partha_pratim_chatterjee_portfolio/images/api-1.png');">
+  <header class="cover bg-top" style="background-image: url('https://chatter19.github.io/partha_pratim_chatterjee_portfolio/images/ready_to_work.png');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -108,7 +108,7 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">One API to rule them all</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Data Platform</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
               A tool that estimates data science salaries.
@@ -138,35 +138,43 @@
   
 
 
-      <h1 class="f1 athelas mt3 mb1">One API to rule them all</h1>
+      <h1 class="f1 athelas mt3 mb1">Data Platform</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-10-17T13:58:08-04:00">October 17, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-02-19T12:58:08-04:00">February 19, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>To further assist &lsquo;going to market&rsquo; strategies, it is imperative from a technical standpoint to have an application interface to perform the proverbial &lsquo;CRUD&rsquo;. The interface should be platform agnostic and must integrate seamlessly to web interfaces, reporting tools such as Tableau or data custom data platforms</p>
-<p>My current project is to build a collection of restful that can be consumed by above mentioned platforms.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the current COVID hit world, it is necessary to understand wether employees are fit to go back to work.
+I developed a pluggable interface,</p>
+<ul>
+<li>that consumes a survey response in the form of json,</li>
+<li>queues it to our AI to calculate the odds for or against a person going back to work and</li>
+<li>sends out those results to a web screen</li>
+</ul>
 <h2 id="architecture-decisions">Architecture Decisions</h2>
 <ul>
 <li>One monolithic application over microservices.</li>
 <li>Test strategy to impolement unit and integration tests.</li>
-<li>User management.</li>
-<li>Entity relationship management.</li>
+<li>Performance Optimisation</li>
 <li>A CI/CD pipeline to consume deployment triggers.</li>
 </ul>
 <h2 id="tech-decisions">Tech Decisions</h2>
 <ul>
 <li>Microservices to logically group the REST services and enable isolated deployment of these endpoints.</li>
+<li>Azure functions to develop and deploy endpoints and message queuing in Blob containers</li>
+<li>Consume incoming requests, calculate odds and send out results asynschronusly to optimise performance.</li>
 <li>Pytest framework to implement unit testing and integration testing.</li>
-<li>Auth0 to manage usermanagement of the application.</li>
-<li>Python&rsquo;s SQL alchemy to manage entity relationships</li>
 <li>Azure DevOps/Bitbucket Pipelines for building CI/CD pipeleine.</li>
+</ul>
+<h2 id="additional-features">Additional Features</h2>
+<ul>
+<li>Containarized scoring</li>
+<li>Custom logging on Application insights</li>
 </ul>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p><a href="https://github.com/chatter19/one_api_for_all">Link to the api repository</a></p>
 <ul class="pa0">
   
 </ul>
